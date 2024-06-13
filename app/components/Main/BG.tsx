@@ -1,6 +1,7 @@
 import React from 'react'
 import Specification from './Specification'
 import Features from './Features'
+import Footer from './Footer'
 
 const BG = () => {
   return (
@@ -16,6 +17,8 @@ const BG = () => {
                  font-bold text-[#ffffff] mx-5'>features</h1>
                  <Features/>
                    </div>
+
+                   <Footer/>
                </div>
 
               

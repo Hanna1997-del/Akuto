@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Navbar from "./components/Main/Navbar";
 import Hero from "./components/Main/Hero";
-import Footer from "./components/Main/Footer";
+
 import Way from "./components/Main/Way";
 import BG from "./components/Main/BG";
+import MailBtn from "./components/Main/MailBtn";
+import Footer from "./components/Main/Footer";
 
 export default function Home() {
   return (
@@ -11,8 +13,9 @@ export default function Home() {
    <Navbar/>
    <Hero/>
    <Way/>
-   {/* <BG/> */}
-   <Footer/>
+   
+   <MailBtn/>
+   
    </main>
   );
 }

@@ -2,20 +2,20 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='fixed w-full bottom-8 flex px-5'>
-        <div className='w-[1150px]  rounded-full px-3 py-2 h-[70px] bg-[#ff3500] text-[#ffffff] '>
-            <div className='flex '>
-                <h1 className='text-lg uppercase font-semibold'>Akuto studio uses cookies and collect data by using our website, you agree to our cookie
-                policy.</h1>
-                <div className='flex gap-2 items-center uppercase text-lg  font-semibold'>
-                <a href="#">Accept</a>
-                <a href="">Refuse</a>
-                </div>
-            </div>
+    <div className='w-screen h-screen px-5 mt-10 uppercase'>
+       <h1 className='text-[85px] font-bold leading-none '><span className='text-[#ff3500]'>Sign up</span> to the mailing list to <span className='text-[#ff3500]'>stay in tune</span> with the last updates</h1>
+
+       <div className='mt-[14rem] flex justify-between'>
+        <div className='w-[300px] font-bold'>
+            <p>Akuto Studio GMBH <br />
+            Lausanne, Switzerland</p>
+            <a href="#" className='text-[#ff3500] font-bold'>Hello@AkutoStudio.com</a>
         </div>
-        <div className='w-[180px] h-[180px] px-2 absolute right-12 bottom-5 flex items-center justify-center rounded-full bg-[#ff3500] text-[#ffffff] '>
-            <h1 className=' uppercase text-center font-semibold text-xl'>Mailing list</h1>
+        <div className='flex gap-5 text-gray-400 font-bold px-10'>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Faq</a>
         </div>
+       </div>
     </div>
   )
 }
