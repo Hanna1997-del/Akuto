@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='fixed w-full bottom-8 flex'>
+    <div className='fixed w-full bottom-8 flex px-5'>
         <div className='w-[1150px]  rounded-full px-3 py-2 h-[70px] bg-[#ff3500] text-[#ffffff] '>
             <div className='flex '>
                 <h1 className='text-lg uppercase font-semibold'>Akuto studio uses cookies and collect data by using our website, you agree to our cookie
